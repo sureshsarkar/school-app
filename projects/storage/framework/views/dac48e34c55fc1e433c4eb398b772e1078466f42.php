@@ -1,0 +1,1 @@
+<?php /**PATH /home/mobbindtechnolog/public_html/tomi.mobbindtechnology.co.in/projects/resources/views/front/static/category/content-writing-services.blade.php ENDPATH**/ ?>

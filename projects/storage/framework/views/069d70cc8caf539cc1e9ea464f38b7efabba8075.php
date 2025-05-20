@@ -1,0 +1,1 @@
+<?php echo $email_body; ?><?php /**PATH /opt/lampp/htdocs/award/projects/resources/views/mail/dummyMail.blade.php ENDPATH**/ ?>

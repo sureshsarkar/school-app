@@ -1,0 +1,234 @@
+/*-----------------------------------------------------------------------------------
+
+ Theme Name: Affiliate Marketing
+ Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+ Author: Kapil Prajapati
+-----------------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: centaur;
+  src: url(fonts/centaur/CENTAUR.TTF);
+}
+
+@font-face {
+  font-family: eastwood;
+  src: url(fonts/eastwood/Eastwood-ALmpx.otf);
+  src: url(fonts/eastwood/EastwoodItalic-p7wGR.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --primary-background:#1a4845; 
+  --white-background:#fff;
+  --black-background:#000;
+  --primary-color:#1a4845;
+  --black-color:#000;
+  --white-color:#fff;
+  --font-weight-100:100;
+  --font-weight-200:200;
+  --font-weight-300:300;
+  --font-weight-400:400;
+  --font-weight-500:500;
+  --font-weight-600:600;
+  --font-weight-700:700;
+  --font-weight-800:800;
+  --font-10:10px;
+  --font-11:11px;
+  --font-12:12px;
+  --font-13:13px;
+  --font-14:14px;
+  --font-15:15px;
+  --font-16:16px;
+  --font-17:17px;
+  --font-18:18px;
+  --font-19:19px;
+  --font-20:20px;
+  --font-21:21px;
+  --font-22:22px;
+  --font-23:23px;
+  --font-24:24px;
+  --font-25:25px;
+  --font-26:26px;
+  --font-27:27px;
+  --font-28:28px;
+  --font-29:29px;
+  --font-30:30px;
+  --font-31:31px;
+  --font-32:32px;
+  --font-33:33px;
+  --font-34:34px;
+  --font-35:35px;
+  --font-36:36px;
+  --font-37:37px;
+  --font-38:38px;
+  --font-39:39px;
+  --font-40:40px;
+  --font-41:41px;
+  --font-42:42px;
+  --font-43:43px;
+  --font-44:44px;
+  --font-45:45px;
+  --font-46:46px;
+  --font-47:47px;
+  --font-48:48px;
+  --font-49:49px;
+  --font-50:50px;
+  --font-60:60px;
+  --font-70:70px;
+  --font-80:80px;
+  --font-90:90px;
+  --font-100:100px;
+  --justify-center:center;
+  --justify-spabe:space-between;
+  --align-center:center;
+  --primary-display:block;
+  --secondary-display:flex;
+  --display-inline:inline-block;
+  --text-uppercase:uppercase;
+  --text-capital:capitalize;
+}
+body{font-family: var(--primary-font-family); }
+p{font-family: centaur;}
+h1{ font-family: eastwood;}
+h2{ font-family: eastwood;}
+h3{ font-family: centaur;}
+h4{ font-family: centaur; margin-bottom: 0;}
+h5{font-family: centaur;}
+h6{font-family: centaur;}
+a{font-family: centaur;}
+li{font-family: centaur;}
+html {
+  scroll-behavior: smooth;
+}
+
+/*=======================header ccss start============================*/
+/* sticky menu css */
+.is-sticky{position: fixed!important;top: 0;left: 0;width: 100%;z-index: 999;box-shadow: 0 2px 15px rgba(0,0,0,.1);}
+.is-sticky{animation: smoothScroll 1s forwards; }
+@keyframes smoothScroll {
+    0% {transform: translateY(-150px); } 
+    100% {transform: translateY(0px); }
+}
+.topbar-wrapp{border-top: 10px solid var(--primary-background);padding: 11px 0px;border-bottom: 2px solid var(--primary-background);}
+.top-bar-left ul{padding-left: 0; list-style-type: none; display: flex; justify-content: flex-start; align-items: center; margin-bottom: 0px;}
+.top-bar-left ul li{margin-right: 35px; }
+.top-bar-left ul li a{color: var(--primary-color); font-size: var(--font-18); font-weight: var(--font-weight-600); text-decoration: none; }
+.top-bar-left ul li a i{margin-right: 4px; }
+.top-bar-right{text-align: right; }
+.top-bar-right ul{padding-left: 0; list-style-type: none; display: flex; justify-content: end; align-items: center; margin-bottom: 0px;}
+.top-bar-right ul li{margin-right: 16px; }
+.top-bar-right ul li a{color: var(--primary-color); font-size: var(--font-18); font-weight: var(--font-weight-600); text-decoration: none; }
+.navbar-nav li a{color: var(--primary-color)!important;font-size: var(--font-18);font-weight: var(--font-weight-600);text-transform: uppercase;margin-right: 33px;}
+.nav-right{display: flex; justify-content: space-between; margin-left: 0px; align-items: center; }
+.search-bar form input{border: 2px solid var(--primary-color); border-radius: 50px; background-color: unset; width: 380px; }
+.bell-icon{margin-left: 18px; }
+.bell-icon a{color: var(--primary-color); font-size: var(--font-18); font-weight: var(--font-weight-600); text-decoration: none; }
+.bell-icon a i{margin-right: 16px; font-size: var(--font-25); }
+.navbar{background-color: unset!important;padding: 27px 0px;box-shadow: 9px 0px 10px #ccc;}
+.main-header-wrapper.is-sticky .navbar{background-color: var(--white-background)!important;}
+
+/*========================header css end===========================*/
+
+/*========================main banner css start===========================*/
+#home-left-slider .item{height: 525px; width: 100%; object-fit: cover;}
+#home-right-slider .item{height: 565px; width: 100%; object-fit: cover;}
+#home-right-slider .item img{height: 565px; width: 100%; object-fit: cover;}
+.main-left-slider{background-color: #ebecf4; padding: 20px; }
+.left-slider-box img{/* height: 100%; *//* object-fit: cover; */}
+.main-right-slider {background-color: #000; padding: 0px; height: 100%; }
+.main-banner-sec{padding: 50px 0px;}
+.left-slider-box{position: relative;}
+.content-banner{position: absolute;bottom: 75px;background-color: #fff;width: 85%;left: 0;right: 0;margin: 0 auto;padding: 37px;}
+.content-banner p{text-transform: uppercase; font-size: var(--font-20); font-weight: var(--font-weight-600); color: #84b784; margin-bottom: 15px; font-family: 'Poppins', sans-serif;}
+.content-banner h2{text-transform: uppercase; color: var(--primary-color); margin-bottom: 0; }
+/*========================main banner css end===========================*/
+
+/*========================best product css start===========================*/
+
+.best-pro-head{text-align: center; }
+.best-pro-head h1{margin-bottom: 4px; letter-spacing: 3px; text-transform: uppercase; font-size: var(--font-36); color: var(--primary-color); }
+.best-pro-head p{font-size: var(--font-20); color: var(--primary-color); font-weight: var(--font-weight-600); width: 52%; margin: 6px auto; }
+.best-pro-head img{width: 400px; margin-bottom: 14px; }
+.product-box img{width: 100%;margin-bottom: 18px;}
+.product-div{padding-top: 49px;padding-bottom: 50px;}
+.product-box h5{font-size: var(--font-23); color: var(--primary-color); font-weight: var(--font-weight-600); margin-bottom: 11px; }
+.product-box h6{color: var(--primary-color); font-weight: var(--font-weight-600); font-size: var(--font-20); }
+.product-box h6 del{margin-right: 7px; }
+.product-box.second-pro-box{position: relative; }
+.second-pro-content{position: absolute; bottom: 180px; width: 80%; text-align: center; margin: 0 auto; left: 0; right: 0; }
+.second-pro-content h2{font-weight: var(--font-weight-500); letter-spacing: 3px; font-size: var(--font-48); color: var(--primary-color); text-shadow: 3px 3px 4px var(--white-color); }
+.second-pro-content p{color: var(--primary-color); font-weight: var(--font-weight-600); font-size: var(--font-20); }
+
+/*========================best product css end===========================*/
+
+/*========================cta sec css start===========================*/
+.main-cat{padding: 35px; background-repeat: no-repeat; width: 100%; background-size: cover; }
+.main-cat h5{text-align: center;margin-bottom: 0;color: var(--white-color);font-size: var(--font-30);}
+
+/*========================cta sec css end===========================*/
+
+.card-mis-image img{width: 100%;}
+.inner-row{margin-top: 30px;}
+.missnory-wrapp{padding: 60px 0px 50px;}
+
+/*========================Deal sec css start===========================*/
+.deal-box img{width: 72%;display: block;margin: 0 auto 0;margin-bottom: 40px;}
+.deal-head{margin-bottom: 44px; }
+.deal-head h3{text-transform: uppercase; font-weight: var(--font-weight-700); color: var(--primary-color); font-size: var(--font-33); position: relative; padding-bottom: 16px; letter-spacing: 3px; }
+.deal-head h3:after{content: '';background-color: var(--primary-background);width: 100px;height: 5px;position: absolute;bottom: 0;left: 0;}
+.deal-box h5{color: #b1b9cd;font-size: var(--font-15);font-family: 'Poppins', sans-serif;}
+.deal-box h4{color: var(--black-color);font-weight: var(--font-weight-500);font-size: var(--font-17);margin-bottom: 14px;font-family: 'Poppins', sans-serif;}
+.deal-box p{margin-bottom: 0; }
+.deal-box p span{font-size: var(--font-23);font-weight: var(--font-weight-600);font-family: 'Poppins', sans-serif;}
+.deal-box p span del{margin-left: 13px; font-size: 17px; color: #b1b9cd; }
+.deal-box{background-color: var(--white-background);border-radius: 15px;box-shadow: 0px 0px 10px #ccc;position: relative;padding: 60px 20px 30px;}
+.tag{position: absolute; background-color: var(--primary-background); padding: 6px 19px; color: var(--white-color); font-weight: var(--font-weight-500); top: 20px; left: 0; }
+/*========================Deal sec css end===========================*/
+
+
+/*========================collection sec css start===========================*/
+.collection-wrapp{padding: 50px 0px;}
+.collection-box img{width: 100%;}
+/*========================collection sec css end===========================*/
+
+/*========================best category sec css start===========================*/
+.cate-box img{width: 100%;}
+.cate-box h5{text-align: center; padding-top: 17px; color: var(--primary-color); font-size: var(--font-19); text-transform: uppercase; font-weight: var(--font-weight-600); }
+/*========================best category sec css end===========================*/
+
+/*========================last Deal sec css start===========================*/
+.latest-deal-wrapp{padding: 50px 0px;}
+.main {display: flex;justify-content: start;width: 100%;}
+.main .item {width: 55px;display: flex;flex-direction: column;justify-content: center;align-items: center;font-size: 16px;margin-right: 3px; position: relative;}
+.main .item:after{content: ':';position: absolute;right: -7px;font-size: 34px;top: -6px;}
+.main .item:last-child:after{display: none;}
+.item .count_down {font-size: 25px;background-color: #eff0f3;padding: 3px;margin-right: 0;width: 45px;height: 45px;display: flex;justify-content: center;align-items: center;border-radius: 3px;}
+.last-deal-box{border: 2px solid #ccc; padding: 20px; display: flex; }
+.last-deal-img{margin-right: 25px; position: relative; }
+.last-deal-img .tags{position: absolute; top: 13px; background-color: #fff; padding: 3px 10px; color: #84b784; font-weight: 600; left: 7px; }
+.last-deal-cont h4{color: var(--black-color); font-weight: var(--font-weight-600); margin-bottom: 10px; }
+.last-deal-cont h6{color: var(--black-color); font-weight: var(--font-weight-600); margin-bottom: 10px; font-size: var(--font-23); }
+.last-deal-cont p{font-size: var(--font-14);margin: 18px 0px 19px;color: #999696;font-family: 'Poppins', sans-serif;}
+.last-deal-cont h5{color: var(--black-color); font-weight: var(--font-weight-600); font-size: var(--font-20); margin-bottom: 18px; }
+
+/*========================last Deal sec css end===========================*/
+
+
+
+.footer-about img{margin-bottom: 22px; }
+.footer-about p{color: var(--white-color);font-size: var(--font-17);font-family: 'Poppins', sans-serif;}
+.footer-social{margin-top: 27px; }
+.footer-social ul{padding-left: 0; margin-left: 0; list-style: none; display: flex; }
+.footer-social ul li{margin-right: 16px; }
+.footer-social ul li a{color: var(--white-color); font-size: var(--font-21); }
+.footer-main{padding: 50px 0px; background-repeat: no-repeat; width: 100%; background-size: cover; }
+.quick-links h4{color: var(--white-color); font-family: 'Poppins', sans-serif; font-weight: var(--font-weight-600); margin-bottom: 18px; }
+.quick-links ul{padding-left: 0px; margin-left: 0; list-style-type: none; margin-bottom: 0;}
+.quick-links ul li{margin-bottom: 10px; }
+.quick-links ul li a{font-family: 'Poppins', sans-serif; color: var(--white-color); text-decoration: none; font-size: var(--font-15); }
+.footer-right{padding-left: 40px;}
+.quick-links ul li:last-child{margin-bottom: 0px;}
+.copyright{background-color: #072826; padding: 20px 0px;}
+.copyright p{margin-bottom: 0; text-align: center; color: var(--white-color); font-family: 'Poppins', sans-serif; }
+.copyright a{font-family: 'Poppins', sans-serif; color: var(--white-color); text-decoration: none;}

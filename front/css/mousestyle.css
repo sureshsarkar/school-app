@@ -1,0 +1,36 @@
+
+#Wrap {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  overflow: hidden;
+}
+
+#Wrap .FollowBox {
+  position: absolute;
+  top:-50;
+  left: 0;
+  width: 110px;
+  height: 110px;
+}
+
+#Wrap .FollowBox:nth-child(1) {
+  z-index: 4;
+}
+
+#Wrap .FollowBox:nth-child(2) {
+  z-index: 3;
+}
+
+#Wrap .FollowBox:nth-child(3) {
+  z-index: 2;
+}
+
+#Wrap .FollowBox:nth-child(4) {
+  z-index: 1;
+  /* border: 2.2px solid blue; */
+}

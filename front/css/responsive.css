@@ -1,0 +1,143 @@
+
+@media (max-width: 767px) {
+
+    .timeContainer .wrapper div h2 {
+        font-size: 3.4rem !important;
+        padding-top: 14px!important;
+         font-family:'Poppins',sans-serif !important;
+    }
+.navbar-toggler{background-color: #ec0972;}
+.navbar-toggler span{display: flex; align-items: center; justify-content: center;}
+.navbar-toggler span i{color: #fff;}
+.navbar .container{align-items: center!important;}
+.navbar-brand img {width: 55%; }
+.banner-wrapper{height: 200px!important;padding-bottom: 20px;}
+.home-slider h2 {color: black; margin: 0px 0px 0px!important; text-align: center; font-size: 34px!important; line-height: 44px!important; font-weight: 400; letter-spacing: -2px; }
+.proccess-tab-inn {padding-top: 10px; }
+.home-abt-mid{padding-top: 0!important;}
+.timeContainer .wrapper {width: 100%; padding: 0px!important; max-height: 400px; display: flex; justify-content: space-around; gap: 2px!important; flex-wrap: wrap; }
+.timeContainer .wrapper .timer-main{width: 22%!important; font-size: 11px; height: 125px!important;}
+.timeContainer .wrapper .timer-main h2{font-size: 28px!important; margin-top: 0px;}
+
+
+.jury-wrapp {background-color: #111111; padding: 16px 0px; position: relative; }
+.social-media-tabs ul li button {text-transform: uppercase; font-weight: 600; border-radius: 0px !important; padding: 7px 11px; font-size: 14px; }
+.process-tab-img img{display: none;}
+.about-side-img img{display: none;}
+.jury-con{margin-top: 0!important;}
+.participate-wrapp {padding: 20px 0px; }
+.logo-side{display: none;}
+.icon-img{height: auto;}
+.parti-con p{margin-right: 0!important;}
+#participate .row{margin-top: 0!important;}
+.f-logo img {width: 19%; margin: 0 auto 30px;
+    display: block; }
+.f-links p {color: #fff; line-height: 29px; font-size: 15px; margin-top:0px; }
+.f-link ul {padding-left: 0px; list-style-type: none; margin-top: 10px; }
+.footer-bottom-link ul li a {color: #fff; font-size: 13px; text-decoration: none; }
+.copyright {margin-top: 17px; }
+.footer-button{margin-top: 0!important;}
+.footer-bottom-link ul{flex-wrap: wrap;}
+.inner-banner-img img{height: 150px;}
+.inner-banner-con-inn h2{font-size: 24px;}
+.about_wrapper {padding: 10px; }
+.about_wrapper h4{margin-bottom: 15px;}
+.tab-back-con {width: 100%; background-color: #000; padding: 0px 9px 10px; }
+.parti-head .row{margin-top: 0!important; padding-top: 10px!important;}
+.f-links{text-align: center;}
+.contact-reg {background-color: #ec0972; padding: 40px; margin-top: 12px !important; width: 93%; margin-bottom: 25px; }
+.myhome_big {
+  font-family: GothamBold;
+  font-size: 41px;
+  color: #fff;
+  text-align: left;
+}
+.process-tab-con p{font-size: 17px;}
+p{font-size: 17px!important;}
+
+.footer-social {justify-content: center; align-items: center !important; }
+.footer-social ul{display: flex; padding-left: 0px;}
+.footer-social ul li{margin-left: 10px;}
+
+.thank-you-page h2 {
+  color: #fff;
+  width: 96%;
+  margin: 0 auto;
+  display: block;
+  font-size: 37px;
+  text-align: center;
+}
+.thank-you-page {
+  background-color: #e90a71;
+  padding: 60px 0px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+.navbar-toggler{background-color: #ec0972;}
+.navbar-toggler span{display: flex; align-items: center; justify-content: center;}
+.navbar-toggler span i{color: #fff;}
+.navbar .container{align-items: center!important;}
+.navbar-brand img {width: 55%; }
+.banner-wrapper{height: 200px!important;}
+.home-slider h2 {color: black; margin: 0px 0px 40px; text-align: center; font-size: 34px!important; line-height: 44px!important; font-weight: 400; letter-spacing: -2px; }
+.proccess-tab-inn {padding-top: 10px; }
+.home-abt-mid{padding-top: 0!important;}
+.timeContainer .wrapper {width: 100%; padding: 20px; max-height: 400px; display: flex; justify-content: space-around; gap: 20px; flex-wrap: wrap; }
+.timeContainer .wrapper div{width: 46%!important;}
+.jury-wrapp {background-color: #111111; padding: 16px 0px; position: relative; }
+.social-media-tabs ul li button {text-transform: uppercase; font-weight: 600; border-radius: 0px !important; padding: 7px 11px; font-size: 14px; }
+.process-tab-img img{display: none;}
+.about-side-img img{display: none;}
+.jury-con{margin-top: 0!important;}
+.participate-wrapp {padding: 20px 0px; }
+.logo-side{display: none;}
+.icon-img{height: auto;}
+.parti-con p{margin-right: 0!important;}
+#participate .row{margin-top: 0!important;}
+.f-logo img {width: 65%; margin-top: 0px; }
+.f-links p {color: #fff; line-height: 29px; font-size: 15px; margin-top:0px; }
+.f-link ul {padding-left: 0px; list-style-type: none; margin-top: 10px; }
+.footer-bottom-link ul li a {color: #fff; font-size: 13px; text-decoration: none; }
+.copyright {margin-top: 17px; }
+.footer-button{margin-top: 0!important;}
+.footer-bottom-link ul{flex-wrap: wrap;}
+
+.about_wrapper {padding: 10px; }
+.about_wrapper h4{margin-bottom: 15px;}
+
+.contact-reg {background-color: #ec0972; padding: 40px; margin-top: 12px !important; width: 93%; margin-bottom: 25px; }
+
+    .timeContainer .wrapper div h2 {
+        font-size: 3.4rem!important;
+        padding-top: 14px!important;
+        font-family:'Poppins',sans-serif !important;
+    }
+
+
+
+.thank-you-page h2 {
+  color: #fff;
+  width: 66%;
+  margin: 0 auto;
+  display: block;
+  font-size: 37px;
+  text-align: center;
+}
+.thank-you-page {
+  background-color: #e90a71;
+  padding: 60px 0px;
+}
+
+
+}
+
+
+
+@media (min-width: 1369px) and (max-width: 2592px) {
+
+}
+
+
+
