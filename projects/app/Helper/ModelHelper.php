@@ -28,6 +28,7 @@ use App\Models\CareerCategory;
 use App\Models\Country;
 use App\Models\Subject;
 use App\Models\Customer;
+use App\Models\ClassMod;
 
 use App\Models\Cms;
 
@@ -81,6 +82,16 @@ class ModelHelper{
         }
         return $data;
     }
+    
+    function getClassSelectList(){
+        $data=[];
+        $all=ClassMod::all();
+        foreach($all as $a){
+            $data[$a->id]=$a->name;
+        }
+        return $data;
+    }
+
     function getSessionSelectList(){
         $data=[];
         $all=SessionMod::all();
@@ -89,6 +100,10 @@ class ModelHelper{
         }
         return $data;
     }
+
+    
+ 
+
     function getImageByProduct($product_id){
         return PropertyGallery::where("property_id",$product_id)->orderBy("sorting","asc")->get();
     }

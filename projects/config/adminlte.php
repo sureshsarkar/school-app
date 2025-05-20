@@ -269,6 +269,8 @@ return [
             'submenu' => [
                 ["text" => "Session", "url" => "admin/session", "permission" => "admin", 'icon' => 'fas fa-fw fa-plus'],
                 ["text" => "Subject", "url" => "admin/subject", "permission" => "admin", 'icon' => 'fas fa-fw fa-plus'],
+                ["text" => "Class", "url" => "admin/class", "permission" => "admin", 'icon' => 'fas fa-fw fa-plus'],
+                ["text" => "Syllabus", "url" => "admin/syllabus", "permission" => "admin", 'icon' => 'fas fa-fw fa-plus'],
                 ["text" => "Result", "url" => "admin/result", "permission" => "admin", 'icon' => 'fas fa-fw fa-plus'],
                 ["text" => "View All Participate", "url" => "admin/locations", "permission" => "admin", 'icon' => 'fas fa-fw fa-list-alt'],
             ]

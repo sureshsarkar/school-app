@@ -51,6 +51,7 @@ class LoginRegisterController extends Controller
 
         }
         Auth::guard('employee')->logout();
+ 
         return redirect()->back()->with("danger", "Login credentials failed");
         /*return [
             'status'=>'failed',
@@ -94,7 +95,8 @@ class LoginRegisterController extends Controller
                 'email' => 'Your provided credentials do not match in our records.',
             ])->onlyInput('email');*/
         } else if ($user->publish == 'published') {
-            return redirect()->to('user/profile')->with("success", "You have successfully logged in!");
+            return redirect()->intended()->with("success", "You have successfully logged in!");
+            // return redirect()->to('user/profile')->with("success", "You have successfully logged in!");
             // return redirect()->back()->with("success", "You have successfully logged in!");
             /*return redirect()->route('front-home')
                 ->withSuccess('You have successfully logged in!');*/

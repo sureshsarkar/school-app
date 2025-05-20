@@ -84,6 +84,8 @@ Route::group(["prefix" => "admin", "namespace" => "Admin", "middleware" => ["aut
 
         'result' => ResultController::class,
         'subject' => SubjectController::class,
+        'class' => ClassController::class,
+        'syllabus' => SyllabusController::class,
         'session' => SessionController::class,
         'customers' => CustomerController::class,
         'voters' => VoterController::class,

@@ -272,9 +272,7 @@ class PageController extends Controller
             return view("front.group.single", compact("data", "category"));
         }
         return abort(404);
-    }
-
-
+    } 
     function servicesdetails($seo_url)
     {
         $data = Service::where("publish", "published")->where("seo_url", $seo_url)->first();
